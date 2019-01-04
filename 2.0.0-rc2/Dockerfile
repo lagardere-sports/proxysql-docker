@@ -14,5 +14,6 @@ RUN apt-get update && \
 VOLUME /var/lib/proxysql
 EXPOSE 6032 6033
 
+COPY proxysql_galera_checker.sh /usr/share/proxysql/tools/
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
