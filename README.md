@@ -2,8 +2,11 @@
 
 ## Supported Tags ##
 
-* [1.4, 1.4.13, latest (1.4/Dockerfile)](https://github.com/severalnines/proxysql-docker/blob/master/1.4/Dockerfile)
+* `1.4.13`
+* `2.0.0-rc2`
+* `v1.4.3-1`
 
+See the [__keepr/proxysql__](https://cloud.docker.com/u/keepr/repository/docker/keepr/proxysql) Docker repository.
 
 ## Overview ##
 
