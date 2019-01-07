@@ -16,7 +16,7 @@ ProxySQL is a high-performance SQL proxy. Details at [ProxySQL](http://www.proxy
 
 To pull the image, simply:
 ```bash
-$ docker pull severalnines/proxysql
+$ docker pull keepr/proxysql:$TAG
 ```
 
 The image is based on Debian 9 (Stretch) and consists of:
@@ -27,7 +27,7 @@ The image is based on Debian 9 (Stretch) and consists of:
 
 To run a ProxySQL container with a custom ProxySQL configuration file:
 ```bash
-$ docker run -d -v /path/to/proxysql.cnf:/etc/proxysql.cnf severalnines/proxysql
+$ docker run -d -v /path/to/proxysql.cnf:/etc/proxysql.cnf keepr/proxysql:$TAG
 ```
 
 ## Example Configurations, proxysql.cnf ##
