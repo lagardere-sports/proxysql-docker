@@ -1,3 +1,6 @@
+# Deprecation
+Note! This repository is no longer maintained! Changes to this repository will not result in the build of a new image.
+
 # ProxySQL Docker Image #
 
 ## Supported Tags ##
